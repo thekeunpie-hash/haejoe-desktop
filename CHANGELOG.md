@@ -15,6 +15,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Public Hub & Integrity Docs:** Launched the upgraded public hub with dark/light adaptive architecture diagrams, zero-touch AI CLI setup prompts, and structured issue templates.
 
 ### Improvements
+- Completed full English / Korean UI localization (i18n) across the desktop Control Desk, Personal Credential Vault, Org Chart, native approval/vault dialogs, updater window, and iOS/iPadOS remote deck with automatic OS language detection and live switching.
 - Improved multi-agent routing and seat quota tracking so parallel runs hand off cleanly when an account approaches its window limit.
 - Refined off-screen browser (ABUA) tray behavior and background recovery without stealing desktop focus or cursor control.
 - Hardened local credential broker scope enforcement and output redaction across CLI and browser workflows.
