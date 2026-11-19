@@ -32,6 +32,9 @@
   <a href="SECURITY.md">
     <img alt="Vault Security" src="https://img.shields.io/badge/Vault-DPAPI%20%26%20Keychain-059669?style=flat-square" />
   </a>
+  <a href="docs/README.ko.md">
+    <img alt="UI Languages" src="https://img.shields.io/badge/UI-English%20%7C%20%ED%95%9C%EA%B5%AD%EC%96%B4-4f46e5?style=flat-square" />
+  </a>
   <a href="https://chromewebstore.google.com/detail/haejoe-browser-remote/jgkchidplncmhdokaakfdljnlgmihhnn">
     <img alt="Chrome Extension" src="https://img.shields.io/badge/Chrome-Browser%20Remote-2563eb?style=flat-square" />
   </a>
@@ -131,22 +134,22 @@ Credentials and execution authority stay separated by design. AI agents never re
 
 ## Inside Haejoe Desktop
 
-Real screenshots captured with synthetic sample data from the shipped desktop app.
+Real screenshots captured in native English mode with synthetic sample data from the shipped desktop app. Haejoe Desktop automatically matches your OS language (`English` / `한국어`) and lets you switch live at any time.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/preview-dashboard.webp" alt="Haejoe Desktop Control Desk" width="100%" />
-      <p align="center"><sub><strong>Control Desk</strong> — Parallel runs, non-blocking decision cards, proof-backed completions, and live multi-account quota tracking.</sub></p>
+      <img src="assets/preview-dashboard-en.webp" alt="Haejoe Desktop Control Desk (English UI)" width="100%" />
+      <p align="center"><sub><strong>Control Desk</strong> — Parallel runs, non-blocking decision cards, goal queue, and live multi-account quota pool.</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/preview-org.webp" alt="Haejoe Desktop Agent Org Chart" width="100%" />
+      <img src="assets/preview-org-en.webp" alt="Haejoe Desktop Agent Org Chart (English UI)" width="100%" />
       <p align="center"><sub><strong>Agent Org Chart</strong> — Visual hierarchy for lead coordinators, parallel builders, and independent reviewers across seats.</sub></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <img src="assets/preview-vault.webp" alt="Haejoe Desktop Personal Credential Vault" width="100%" />
+      <img src="assets/preview-vault-en.webp" alt="Haejoe Desktop Personal Credential Vault (English UI)" width="100%" />
       <p align="center"><sub><strong>Personal Credential Vault</strong> — OS-encrypted storage (Windows DPAPI / macOS Keychain) with per-item scope controls and windowless account brokering.</sub></p>
     </td>
   </tr>
@@ -160,6 +163,7 @@ Real screenshots captured with synthetic sample data from the shipped desktop ap
 | :--- | :--- |
 | **Coding CLIs & IDEs** | Claude Code, OpenAI Codex, Antigravity (`agy`), Cursor, VS Code, Devin, Gemini CLI |
 | **Web AI Connectors** | Claude, ChatGPT (Developer Mode), Gemini via authenticated MCP bridge |
+| **UI Languages (i18n)** | Native English & Korean across desktop, native approval/vault dialogs, updater, and iOS/iPadOS remote deck |
 | **Windows 10 / 11** | Native desktop app (`txiki.js` + WebView2), local bridge (`127.0.0.1:43177`), DPAPI Vault, ABUA off-screen Chrome |
 | **macOS & Linux** | Native launcher / CLI bridge (`127.0.0.1:43177`), MCP connector, macOS Keychain integration, Chrome extension |
 | **iOS / iPadOS** | Home Screen WebApp Control Desk with WebPush notifications and Passkey approvals |
