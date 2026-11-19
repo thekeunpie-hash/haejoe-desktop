@@ -163,7 +163,7 @@ Real screenshots captured in native English mode with synthetic sample data from
 | :--- | :--- |
 | **Coding CLIs & IDEs** | Claude Code, OpenAI Codex, Antigravity (`agy`), Cursor, VS Code, Devin, Gemini CLI |
 | **Web AI Connectors** | Claude, ChatGPT (Developer Mode), Gemini via authenticated MCP bridge |
-| **UI Languages (i18n)** | Native English & Korean across desktop, native approval/vault dialogs, updater, and iOS/iPadOS remote deck |
+| **UI Languages (i18n)** | Native English & Korean across desktop, system tray menu, native approval/vault dialogs, updater, and iOS/iPadOS remote deck |
 | **Windows 10 / 11** | Native desktop app (`txiki.js` + WebView2), local bridge (`127.0.0.1:43177`), DPAPI Vault, ABUA off-screen Chrome |
 | **macOS & Linux** | Native launcher / CLI bridge (`127.0.0.1:43177`), MCP connector, macOS Keychain integration, Chrome extension |
 | **iOS / iPadOS** | Home Screen WebApp Control Desk with WebPush notifications and Passkey approvals |
