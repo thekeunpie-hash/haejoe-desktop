@@ -1,0 +1,97 @@
+name: Bug Report
+description: Report a defect in Haejoe Desktop, the local bridge, credential vault, or installers.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please fill out the details below so we can reproduce and fix it quickly.
+        **Never paste passwords, API keys, access tokens, or session cookies.** For undisclosed security issues, see [SECURITY.md](../../SECURITY.md).
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Operating System & Architecture
+      options:
+        - Windows 11 (x64)
+        - Windows 11 (ARM64)
+        - Windows 10 (x64)
+        - macOS (Apple Silicon / arm64)
+        - macOS (Intel / x64)
+        - Linux (x64)
+        - Linux (arm64)
+        - iOS / iPadOS WebApp
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Haejoe Desktop Version
+      description: Shown in the sidebar of Haejoe Desktop or via `haejoe-local --version`.
+      placeholder: "e.g. 0.16.779"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected Area
+      options:
+        - Installer (install.ps1 / install.sh)
+        - Multi-Agent Orchestration & Routing
+        - Credential Vault (DPAPI / Keychain)
+        - Off-Screen Browser (ABUA) / Chrome Extension
+        - Local Bridge & MCP Connector
+        - Control Desk UI / System Tray
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agents
+    attributes:
+      label: Connected AI Tools
+      options:
+        - label: Claude Code
+        - label: OpenAI Codex
+        - label: Antigravity (agy)
+        - label: Cursor / VS Code
+        - label: Devin / Gemini CLI
+        - label: Web AI (Claude / ChatGPT / Gemini)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What Happened?
+      description: Clear description of the bug and what you expected instead.
+      placeholder: Describe the issue and expected behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Run '...'
+        2. Click '...'
+        3. Observe error '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized Logs or Output (Optional)
+      description: Paste relevant terminal output or error codes with any personal paths, tokens, or account names removed.
+      render: text
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Pre-Submit Check
+      options:
+        - label: I confirmed this report contains no passwords, API keys, tokens, or private account data.
+          required: true
