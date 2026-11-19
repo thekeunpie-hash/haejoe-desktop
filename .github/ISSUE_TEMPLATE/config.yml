@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official Product Page & Release Checksums
+    url: https://haejoe.com/local
+    about: Inspect release details, SHA-256 digests, and platform requirements.
+  - name: Zero-Touch Setup Guide
+    url: https://haejoe.com/local/setup
+    about: Step-by-step instructions to connect Claude Code, Codex, Antigravity, and Web AIs.
+  - name: Security Vulnerability Disclosure
+    url: https://github.com/thekeunpie-hash/haejoe-desktop/blob/main/SECURITY.md
+    about: Report security issues privately instead of opening a public issue.
