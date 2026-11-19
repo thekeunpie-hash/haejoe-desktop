@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-  <img alt="Haejoe Desktop — Run autonomous agent teams locally. Keep secrets locked, keep your screen yours." src="assets/hero.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-ko-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-ko-light.svg" />
+  <img alt="해줘 데스크탑 — 내 PC에서 자율 에이전트 팀을 굴립니다. 비밀값은 금고에, 화면은 내 손에 둡니다." src="assets/hero-ko.svg" width="100%" />
 </picture>
 
 <br />
@@ -118,9 +118,9 @@ curl -fsSL https://haejoe.com/install.sh | sh
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/architecture-light.svg" />
-  <img alt="해줘 데스크탑 아키텍처 — 위임과 노출의 분리" src="assets/architecture.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-ko-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/architecture-ko-light.svg" />
+  <img alt="해줘 데스크탑 아키텍처 — 위임과 노출의 분리" src="assets/architecture-ko.svg" width="100%" />
 </picture>
 
 </div>
@@ -163,7 +163,7 @@ curl -fsSL https://haejoe.com/install.sh | sh
 | :--- | :--- |
 | **코딩 CLI · IDE** | Claude Code, OpenAI Codex, Antigravity(`agy`), Cursor, VS Code, Devin, Gemini CLI |
 | **웹 AI 커넥터** | Claude, ChatGPT(유료 개발자 모드), Gemini — 인증된 MCP 브리지로 연결 |
-| **UI 언어 (i18n)** | 한국어 · English 기본 지원 — 운영체제 언어 자동 감지 및 데스크탑·승인 창·금고 창·업데이터·모바일 관제 즉시 전환 |
+| **UI 언어 (i18n)** | 한국어 · English 기본 지원 — 운영체제 언어 자동 감지 및 데스크탑·트레이 메뉴·승인 창·금고 창·업데이터·모바일 관제 즉시 전환 |
 | **Windows 10 / 11** | 네이티브 데스크탑 앱(`txiki.js` + WebView2), 로컬 브리지(`127.0.0.1:43177`), DPAPI 금고, ABUA 화면 밖 Chrome |
 | **macOS · Linux** | 네이티브 런처 · CLI 브리지(`127.0.0.1:43177`), MCP 커넥터, macOS 키체인 연동, Chrome 확장 |
 | **iOS · iPadOS** | 홈 화면 웹앱 관제 데스크 — WebPush 알림과 Passkey 승인 지원 |
