@@ -32,6 +32,9 @@
   <a href="SECURITY.md">
     <img alt="금고 보안" src="https://img.shields.io/badge/Vault-DPAPI%20%26%20Keychain-059669?style=flat-square" />
   </a>
+  <a href="README.md">
+    <img alt="UI 언어" src="https://img.shields.io/badge/UI-English%20%7C%20%ED%95%9C%EA%B5%AD%EC%96%B4-4f46e5?style=flat-square" />
+  </a>
   <a href="https://chromewebstore.google.com/detail/haejoe-browser-remote/jgkchidplncmhdokaakfdljnlgmihhnn">
     <img alt="Chrome 확장" src="https://img.shields.io/badge/Chrome-Browser%20Remote-2563eb?style=flat-square" />
   </a>
@@ -160,6 +163,7 @@ curl -fsSL https://haejoe.com/install.sh | sh
 | :--- | :--- |
 | **코딩 CLI · IDE** | Claude Code, OpenAI Codex, Antigravity(`agy`), Cursor, VS Code, Devin, Gemini CLI |
 | **웹 AI 커넥터** | Claude, ChatGPT(유료 개발자 모드), Gemini — 인증된 MCP 브리지로 연결 |
+| **UI 언어 (i18n)** | 한국어 · English 기본 지원 — 운영체제 언어 자동 감지 및 데스크탑·승인 창·금고 창·업데이터·모바일 관제 즉시 전환 |
 | **Windows 10 / 11** | 네이티브 데스크탑 앱(`txiki.js` + WebView2), 로컬 브리지(`127.0.0.1:43177`), DPAPI 금고, ABUA 화면 밖 Chrome |
 | **macOS · Linux** | 네이티브 런처 · CLI 브리지(`127.0.0.1:43177`), MCP 커넥터, macOS 키체인 연동, Chrome 확장 |
 | **iOS · iPadOS** | 홈 화면 웹앱 관제 데스크 — WebPush 알림과 Passkey 승인 지원 |
