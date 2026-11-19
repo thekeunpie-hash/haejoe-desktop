@@ -1,0 +1,47 @@
+name: Feature Request
+description: Suggest a capability, integration, or workflow improvement for Haejoe Desktop.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share what you want Haejoe Desktop to handle better. Focusing on the real-world workflow problem helps us design the cleanest solution.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Multi-Agent Orchestration & Org Chart
+        - Credential Vault & Scoped Delegation
+        - Off-Screen Browser & Desktop Control (ABUA / ACUA)
+        - AI Provider / IDE / CLI Integration
+        - Platform Support (Windows / macOS / Linux / iOS)
+        - Control Desk UI & Developer Experience
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Bottleneck
+      description: What manual step or limitation slows down your workflow today?
+      placeholder: Describe the friction you run into...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Workflow or Capability
+      description: How should Haejoe Desktop behave instead?
+      placeholder: Describe the ideal experience...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context (Optional)
+      description: Mention any AI CLIs, operating systems, or team setups relevant to this request.
