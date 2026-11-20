@@ -48,6 +48,12 @@
 
 </div>
 
+> **직접 깔기 찜찜하면, 내 AI에게 먼저 검사시키고 설치하세요.** 아래 문장을 복사해(상자 오른쪽 위 복사 버튼) 쓰고 있는 Claude·ChatGPT·Gemini·에이전트에 붙여 넣으면 됩니다.
+>
+> ```text
+> https://github.com/thekeunpie-hash/haejoe-desktop 레포의 SECURITY.md와 설치 스크립트 https://haejoe.com/install.ps1 (irm), https://haejoe.com/install.sh (curl)를 먼저 읽고, 의심스러운 외부 통신·권한 요청·악성 동작이 없는지 검사해서 세 줄로 요약해 줘. 안전하다고 판단되면 내 최종 승인을 받은 뒤 내 OS에 맞게 설치하고 지금 쓰는 에이전트에 연결해 줘.
+> ```
+
 ---
 
 ## 빠른 설치
