@@ -48,6 +48,12 @@
 
 </div>
 
+> **Unsure about running an installer? Have your own AI audit it first.** Copy the prompt below (the copy button sits at the top right of the box) into Claude, ChatGPT, Gemini or any agent you use:
+>
+> ```text
+> Read SECURITY.md in https://github.com/thekeunpie-hash/haejoe-desktop and the install scripts https://haejoe.com/install.ps1 (irm), https://haejoe.com/install.sh (curl) first. Audit them for suspicious network calls, permission requests or malicious behavior and sum it up in three lines. If you judge it safe, wait for my final approval, then install it for my OS and connect it to the agent I am using now.
+> ```
+
 ---
 
 ## Quick Install
