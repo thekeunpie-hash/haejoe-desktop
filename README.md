@@ -186,8 +186,8 @@ Real screenshots captured in native English mode with synthetic sample data from
 
 ## Community & Support
 
-- **Product & Releases:** [haejoe.com/local](https://haejoe.com/local)
-- **Zero-Touch Setup Guide:** [haejoe.com/local/setup](https://haejoe.com/local/setup)
+- **Product & Releases:** [haejoe.com/en/desktop](https://haejoe.com/en/desktop)
+- **Zero-Touch Setup Guide:** [haejoe.com/en/desktop/setup](https://haejoe.com/en/desktop/setup)
 - **Report a Bug:** [Open a bug report](https://github.com/thekeunpie-hash/haejoe-desktop/issues/new?template=bug_report.yml)
 - **Request a Feature:** [Open a feature request](https://github.com/thekeunpie-hash/haejoe-desktop/issues/new?template=feature_request.yml)
 - **Security Disclosure:** [SECURITY.md](SECURITY.md) or `admin@haejoe.com`
